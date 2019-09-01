@@ -1,4 +1,4 @@
-Seattle vs Boston AirBnb Data
+Analysis of Boston AirBnb Data
 
 
 Analysis from Airbnb, Seattle and Boston listing data for gaining some business related insights
