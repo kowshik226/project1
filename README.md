@@ -1,15 +1,18 @@
 Seattle vs Boston AirBnb Data
+
+
 Analysis from Airbnb, Seattle and Boston listing data for gaining some business related insights
 
 
 1. Installations
 The required libraries for running the code within Jupiter notebook are part of the Anaconda distribution for Python 3.6.8. 
 
-Run requiremnts file to install dependencies for project using following command
+	Run requiremnts file to install dependencies for project using following command
 
-pip install -r requirements.txt
+	pip install -r requirements.txt
 
 2. Project Motivation
+
 This project explored the utility of Airbnb, Seattle and Boston dataset for obtaining insights to remain competitive in the market. The CRISP-DM (Cross Industry Process for Data Mining) pipeline was followed focussing on insights for "How to make your listing competitive?". The specific questions were:
 
 	How do price increase/decrease in a season and peak season?
