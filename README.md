@@ -6,7 +6,7 @@ Analysis from Airbnb, Seattle and Boston listing data for gaining some business 
 
 ## 1. Installations
 
-	The required libraries for running the code within Jupiter notebook are part of the Anaconda distribution for Python 3.6.8. 
+	The required libraries for running the code within Jupiter notebookfor Python 3.6.8. 
 
 	Run requiremnts file to install dependencies for project using following command
 
@@ -22,7 +22,7 @@ Analysis from Airbnb, Seattle and Boston listing data for gaining some business 
 
 ## 3. File Descriptions
 
-	boston_seattle.ipnyb --This notebook presents the word related to addressing the above questions. The code for cleaning, engineering, and modeling data along with the markdown describing the process is presented.
+	boston.ipnyb --This notebook presents the word related to addressing the above questions. The code for cleaning, engineering, and modeling data along with the markdown describing the process is presented.
 
 	/data folder -- This folder contains the data I used to perform the analysis. The original source of the files is Kaggle.
 
