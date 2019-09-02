@@ -69,39 +69,7 @@ def boost_classifier(clf, parameters, feature_df, labels):
     return best_clf, X_train, X_test, y_train, y_test
 
 
-# In[8]:
-
-
-def feature_plot(importances, X_train, y_train):
-    '''
-    INPUTS
-    importances - Feature importances
-    X_train, y_train - Training data
-    OUTPUT
-    Plot of five most important features
-    '''
-
-    # Displays the five most important features
-    indices = np.argsort(importances)[::-1]
-    columns = X_train.columns.values[indices[:5]]
-    values = importances[indices][:5]
-
-    # Creat the plot
-    fig = plt.figure(figsize = (15,5))
-    plt.title("Normalized Weights for First Five Most Predictive Features", fontsize = 16)
-    plt.bar(np.arange(5), values, width = 0.6, align="center", color = '#03fce8',           label = "Feature Weight")
-    plt.bar(np.arange(5) - 0.3, np.cumsum(values), width = 0.2, align = "center", color = '#4e03fc',           label = "Cumulative Feature Weight")
-    plt.xticks(np.arange(5), columns)
-    plt.xlim((-0.5, 4.5))
-    plt.ylabel("Weight", fontsize = 16)
-    plt.xlabel("Feature", fontsize = 16)
-
-    plt.legend(loc = 'upper center')
-    plt.tight_layout()
-    plt.show()
-
-
-# In[9]:
+# In[12]:
 
 
 def prediction_scores(clf, X_train, X_test, y_train, y_test):
@@ -126,7 +94,7 @@ def prediction_scores(clf, X_train, X_test, y_train, y_test):
     return test_accuracy, train_accuracy
 
 
-# In[10]:
+# In[13]:
 
 
 def print_scores(test_accuracy, train_accuracy):
@@ -142,7 +110,7 @@ def print_scores(test_accuracy, train_accuracy):
     print("Accuracy score on training data: {:.4f}".format(train_accuracy))
 
 
-# In[7]:
+# In[14]:
 
 
 def create_text_features(text_df):
