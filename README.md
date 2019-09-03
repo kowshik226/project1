@@ -12,13 +12,13 @@ Analysis from Airbnb, Seattle and Boston listing data for gaining some business 
 
 		pip install -r requirements.txt
 
-## 2. Project Motivation
+## 2. Project Description
 
-	This project explored the utility of Airbnb, Seattle and Boston dataset for obtaining insights to remain competitive in the market. The CRISP-DM (Cross Industry Process for Data Mining) pipeline was followed focussing on insights for "How to make your listing competitive?". The specific questions were:
+	This project explored the utility of Airbnb, Boston dataset for obtaining insights to remain competitive in the market. The CRISP-DM (Cross Industry Process for Data Mining) pipeline was followed focussing on insights for the following specific questions
 
-		 1. How do price increase/decrease in a season and peak season?
-		 2. Analyze what do people think about AirBnb based on reviews?
-		 3. What are the important factors that influence price in boston ?
+		1. What time of the year is peak season in Boston?
+                2. Analyse people reviews, what they think about the Airbnb?
+                3. What are the important factors that influence price in Boston ?
 
 ## 3. File Descriptions
 
