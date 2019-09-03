@@ -30,7 +30,7 @@ Analysis from Airbnb, Seattle and Boston listing data for gaining some business 
 
 ## 4. How to interact with the project
 
-   The major findings can be found at the post available here
+   The major findings can be found at the post available here(https://medium.com/@kowshik226/insights-of-airbnb-boston-home-data-e32da62f1351)
 
 ## 5. Licensing and Acknowledgements
 
