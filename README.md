@@ -32,6 +32,9 @@ Analysis from Airbnb, Seattle and Boston listing data for gaining some business 
 
 ## 4. Results
         From the analysis, we found that rents tend to increase more in summer season, people like to visit Airbnb hotels more often and prefered the home with more space, rich in amenities.
+	 ![alt test](images/q1.png)
+	
+	
 
 ## 5. Blog Post
 
