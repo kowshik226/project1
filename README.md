@@ -12,26 +12,33 @@ Analysis from Airbnb, Seattle and Boston listing data for gaining some business 
 
 		pip install -r requirements.txt
 
-## 2. Project Motivation
+## 2. Project Description
 
-	This project explored the utility of Airbnb, Seattle and Boston dataset for obtaining insights to remain competitive in the market. The CRISP-DM (Cross Industry Process for Data Mining) pipeline was followed focussing on insights for "How to make your listing competitive?". The specific questions were:
+	This projects explored the Airbnb boston dataset by CRISP-DM methodology and analysed few aspects inside data what it can offer benefits to hotel owners, people who visits to boston. The below are the questions which i analyzed in this project
 
-		 1. How do price increase/decrease in a season and peak season?
-		 2. Analyze what do people think about AirBnb based on reviews?
-		 3. What are the important factors that influence price in boston ?
+		1. What time of the year is peak season in Boston?
+                2. Analyse people reviews, what they think about the Airbnb?
+                3. What are the important factors that influence price in Boston ?
 
 ## 3. File Descriptions
 
-	boston.ipnyb --This notebook presents the word related to addressing the above questions. The code for cleaning, engineering, and modeling data along with the markdown describing the process is presented.
+       listings.csv  -- this file has more information about price, reviews, type of house, neighbourhood etc.,
+       
+       reviews.csv   -- this file collects the information from websites what tenants thinking about their hotels.
+       
+       calender.csv  -- this file talks about price of each hotels on each day.	
+	
+       boston.ipnyb  -- this notebook explained each question with analysis,how to clean data, what to do with missing data,
+	                 how to transform certain features and how to apply imputation methods
 
-	/data folder -- This folder contains the data I used to perform the analysis. The original source of the files is Kaggle.
 
+## 4. Results
+        From the analysis, we found that rents are more in summer season, people like to visit Airbnb hotels more often and prefered the home with more space, amenities.
 
+## 5. Blog Post
 
-## 4. How to interact with the project
+   The blog post can be found here(https://medium.com/@kowshik226/insights-of-airbnb-boston-home-data-e32da62f1351)
 
-   The major findings can be found at the post available here
-
-## 5. Licensing and Acknowledgements
-
-	The licensing for the data and related information can be found in the Kaggle link available here. I would like to thank the mentors at Udacity for coaching necessary background skills in Data Analysis.# project1
+## 6.Licensing and Acknowledgements
+	
+	Thanks to the Udacity team for making my learning path fascination, Licensing related to data can be found in Kaggle
