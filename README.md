@@ -6,9 +6,7 @@ Analysis from Airbnb, Seattle and Boston listing data for gaining some business 
 
 ## 1. Installations
 
-	The required libraries for running the code within Jupiter notebookfor Python 3.6.8. 
-
-	Run requiremnts file to install dependencies for project using following command
+	To run the project in your local machine using python 3.6 just run the following command in your virtual environment
 
 		pip install -r requirements.txt
 
